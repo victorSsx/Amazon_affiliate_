@@ -17,6 +17,13 @@
     max-width: 100%;
     height: auto;
   }
+  .product-price {
+    align-items: baseline;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
   .about-content {
     flex-direction: column;
@@ -33,13 +40,20 @@
     margin-bottom: 10px;
   }
 
-    .hero h1 {
-        font-size: 2rem;
-    }
-    .hero p {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .text {
+    text-align: left;
+    justify-items: center;
+  }
+  .btn-primary {
+    margin-left: 165px;
+  }
 }
 @media (max-width: 480px) {
   .hero h1 {
@@ -50,7 +64,9 @@
     font-size: 1rem;
   }
 
-  .about-section, .product-section, .testimonials-section {
+  .about-section,
+  .product-section,
+  .testimonials-section {
     padding: 1rem;
   }
 
@@ -59,6 +75,7 @@
     margin-left: 0;
     margin-bottom: 10px;
   }
+  
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
